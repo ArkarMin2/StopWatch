@@ -1,0 +1,39 @@
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.mainContainer{
+    text-align: center;
+}
+.time{
+    font-size: 120px;
+    color: lightblue;
+    display: inline-block;
+}
+.buttonContainer{
+    margin-top: 20px;
+}
+.button{
+    background-color: lightblue;
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    width: 100px;
+    margin-right: 10px;
+}
+.continue{
+    display: none;
+}
+.pause{
+    display: none;
+}
+.mSecond{
+    font-size: 30px;
+    display: inline-block;
+    color: lightblue;
+}
+@media(max-width:850px){
+    .flex{
+        width: 80%;
+    }
+}
